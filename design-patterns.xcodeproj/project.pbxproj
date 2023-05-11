@@ -11,6 +11,9 @@
 		494C6FD42A0C5C09001159A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C6FD32A0C5C09001159A5 /* ContentView.swift */; };
 		494C6FD62A0C5C11001159A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494C6FD52A0C5C11001159A5 /* Assets.xcassets */; };
 		494C6FDA2A0C5C11001159A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494C6FD92A0C5C11001159A5 /* Preview Assets.xcassets */; };
+		494C6FE42A0C5DEC001159A5 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C6FE32A0C5DEC001159A5 /* Book.swift */; };
+		494C6FE62A0C5E23001159A5 /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C6FE52A0C5E23001159A5 /* BookListView.swift */; };
+		494C6FF02A0C6480001159A5 /* BookListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C6FEF2A0C6480001159A5 /* BookListController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		494C6FD52A0C5C11001159A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		494C6FD72A0C5C11001159A5 /* design_patterns.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = design_patterns.entitlements; sourceTree = "<group>"; };
 		494C6FD92A0C5C11001159A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		494C6FE32A0C5DEC001159A5 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		494C6FE52A0C5E23001159A5 /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
+		494C6FEF2A0C6480001159A5 /* BookListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,9 @@
 		494C6FD02A0C5C09001159A5 /* design-patterns */ = {
 			isa = PBXGroup;
 			children = (
+				494C6FE22A0C5CDF001159A5 /* controllers */,
+				494C6FE12A0C5CDA001159A5 /* views */,
+				494C6FE02A0C5CBD001159A5 /* models */,
 				494C6FD12A0C5C09001159A5 /* design_patternsApp.swift */,
 				494C6FD32A0C5C09001159A5 /* ContentView.swift */,
 				494C6FD52A0C5C11001159A5 /* Assets.xcassets */,
@@ -67,6 +76,30 @@
 				494C6FD92A0C5C11001159A5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		494C6FE02A0C5CBD001159A5 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				494C6FE32A0C5DEC001159A5 /* Book.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		494C6FE12A0C5CDA001159A5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				494C6FE52A0C5E23001159A5 /* BookListView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		494C6FE22A0C5CDF001159A5 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				494C6FEF2A0C6480001159A5 /* BookListController.swift */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +174,9 @@
 			files = (
 				494C6FD42A0C5C09001159A5 /* ContentView.swift in Sources */,
 				494C6FD22A0C5C09001159A5 /* design_patternsApp.swift in Sources */,
+				494C6FE42A0C5DEC001159A5 /* Book.swift in Sources */,
+				494C6FE62A0C5E23001159A5 /* BookListView.swift in Sources */,
+				494C6FF02A0C6480001159A5 /* BookListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
